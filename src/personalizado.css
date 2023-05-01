@@ -1,0 +1,66 @@
+.colorLetra {
+  color: rgb(210, 225, 234);
+}
+
+.button{
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.508), 0 0 5px rgba(255, 255, 255, 1),
+    0 0 10px rgb(0, 0, 0), 0 0 20px #0a3a98, 0 0 50px #0a3a98,
+    0 0 60px #00ffff, 0 0 80px #0a3a98;
+}
+
+.img{
+    height: 20%;
+    width: 30%;
+}
+
+.borde{
+    border: 2px solid white;
+}
+
+.fondo{
+    background-color: #282c34;
+}
+
+.header-reyes{
+    text-align: left;
+    padding-left: 30px;
+}
+
+.flex-container{
+    margin: 40px auto;
+    width: 90%;
+    outline: 3px solid #00ffff00; 
+    height: 400px;
+    resize: both;
+    overflow: hidden;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 10px;
+
+}
+
+.flex-item{
+    flex-basis: 100px;
+    flex-grow: 1;
+    text-align: center;   
+    height: 100%;
+    border-radius: 15px;
+}
+
+.fondo-item{
+    background-color: #E1A11B;
+}
+
+.img-reyes{
+    height: 75%;
+    width: 50%;
+}
+
+.nombre-rey{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
